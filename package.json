@@ -1,17 +1,17 @@
 {
-  "name": "metashark-suite",
+  "name": "metashark-afiliados",
   "version": "1.3.0",
   "private": true,
   "type": "module",
   "description": "Plataforma SaaS Multi-Tenant para Marketing de Afiliados impulsada por IA, con una infraestructura de pruebas canónica y de élite.",
   "author": {
     "name": "RaZ Podestá",
-    "url": "https://metashark.com"
+    "url": "https://raz.metashark.tech"
   },
   "contributors": [
     {
       "name": "L.I.A Legacy™",
-      "url": "https://metashark.com/lia"
+      "url": "https://lia.metashark.com"
     }
   ],
   "license": "MIT",
@@ -21,7 +21,7 @@
   "scripts": {
     "theme:gen": "tsx scripts/generate-theme-css.mjs",
     "dev": "pnpm theme:gen && next dev",
-    "build": "pnpm theme:gen && next build",
+    "build": "next build",
     "start": "next start",
     "lint": "eslint . --ext .js,.jsx,.ts,.tsx",
     "lint:fix": "pnpm lint --fix",

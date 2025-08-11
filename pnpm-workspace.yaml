@@ -1,0 +1,7 @@
+onlyBuiltDependencies:
+  - '@sentry/cli'
+  - esbuild
+  - msw
+  - sharp
+  - supabase
+  - unrs-resolver
